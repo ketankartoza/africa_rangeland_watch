@@ -1,29 +1,7 @@
 
-# Markdown == 3.3.6
-# mkdocs-with-pdf
-# mkdocs-material-extensions == 1.3.1
-# mkdocs-material >= 9.5.32
-# mdx_gh_links
-# mkdocs-pdf-export-plugin
-# mkdocstrings-python
-# mkdocs-video
-# mkdocs-redirects
-# mkdocs-enumerate-headings-plugin
-# mkdocs-git-revision-date-localized-plugin
-# pymdown-extensions
-# # needed for the create-uuid.py helper script
-# shortuuid
-# cffi
-# # Needed for mkdocstrings python documentation generator
-# black
-
-
-#Alternative for pdf creation - broken on nixos and lately ubuntu
+Markdown == 3.3.6
 mkdocs-with-pdf
-# Export to pdf - see https://comwes.github.io/mkpdfs-mkdocs-plugin/index.html
-#mkpdfs-mkdocs
-# Rather do
-# pip install -e git+https://github.com/jwaschkau/mkpdfs-mkdocs-plugin.git#egg=mkpdfs-mkdocs
+mkdocs-material-extensions == 1.3.1
 mkdocs-material >= 9.5.32
 mdx_gh_links
 mkdocs-pdf-export-plugin
@@ -32,10 +10,9 @@ mkdocs-video
 mkdocs-redirects
 mkdocs-enumerate-headings-plugin
 mkdocs-git-revision-date-localized-plugin
+pymdown-extensions
 # needed for the create-uuid.py helper script
 shortuuid
+cffi
 # Needed for mkdocstrings python documentation generator
 black
-cffi
-# Needed for PDF back page QR Code
-qrcode
