@@ -13,14 +13,14 @@ markdown_extensions:
         - attr_list # lets us resize images see https://github.com/mkdocs/mkdocs/issues/1678#issuecomment-455500757
         - sane_lists # needed to keep numbers in ordered lists correct
         - pymdownx.highlight:
-                  anchor_linenums: true
+                anchor_linenums: true
         - pymdownx.inlinehilite
         #- mdx_truly_sane_lists
         - toc:
-                  permalink: true
-                   #slugify: !!python/name:pymdownx.slugs.slugify
+                permalink: true
+                #slugify: !!python/name:pymdownx.slugs.slugify
         - pymdownx.snippets:
-                  base_path: .
+                base_path: .
         - admonition
         - tables
         - pymdownx.details
@@ -29,28 +29,28 @@ markdown_extensions:
         - pymdownx.mark
         - pymdownx.tilde
         - pymdownx.superfences:
-                  custom_fences:
-                          - name: mermaid
-                            class: mermaid
-                            format: !!python/name:pymdownx.superfences.fence_code_format
+                custom_fences:
+                        - name: mermaid
+                          class: mermaid
+                          format: !!python/name:pymdownx.superfences.fence_code_format
         - pymdownx.emoji:
-                  emoji_index: !!python/name:material.extensions.emoji.twemoji
-                  emoji_generator: !!python/name:material.extensions.emoji.to_svg
+                emoji_index: !!python/name:material.extensions.emoji.twemoji
+                emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # Navigation
 nav:
         - Home:
-                  - Home: index.md
-                  - Code of Conduct: about/code-of-conduct.md
-                  - License: about/license.md
-                  - Running Instances: about/running-instances.md
+                - Home: index.md
+                - Code of Conduct: about/code-of-conduct.md
+                - License: about/license.md
+                - Running Instances: about/running-instances.md
         - User:
-                  - user/index.md
-                  - Quickstart: user/quickstart/index.md
-                  - Guide:
-                          - user/guide/index.md
-                  - Manual :
-                          - user/manual/index.md
+                - user/index.md
+                - Quickstart: user/quickstart/index.md
+                - Guide:
+                        - user/guide/index.md
+                - Manual :
+                        - user/manual/index.md
         - Administrators:
                 - administrator/index.md
                 - Guide:
